@@ -1,0 +1,83 @@
+@import url(css/animate.css);
+body{
+	font-family:Dotum,Verdana,Arial,San-Serif;
+	font-size:12px;
+	background-image:url(images/bg.gif);
+	margin:0;
+}
+
+.header_bg{
+	background-image:url(images/top_back.gif);
+	height:80px;
+	width:100%;
+}
+
+.left_info{
+	background-image:url(images/left_info_back.gif);
+	height:91px;
+	color:#666;
+	font-size:12px;
+}
+
+.left_menu{
+	background-image:url(images/left_mn_icon_off.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:#CCC;
+	font-weight:bold;
+	color:#666;
+	height:36px;
+}
+
+.left_menu:hover{
+	background-image:url(images/left_mn_icon_on.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:#999;
+	font-weight:bold;
+	color:#FF6;
+	height:36px;
+	cursor:pointer;
+}
+
+.left_munu_selected{
+	background-image:url(images/left_mn_icon_on.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:#030;
+	font-weight:bold;
+	color:#FFF;
+	height:36px;
+}
+.left_munu_selected:hover{
+	background-image:url(images/left_mn_icon_on.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:#030;
+	font-weight:bold;
+	color:#FFF;
+	height:36px;
+	cursor:pointer;
+}
+
+.field_box{
+	border-style:solid #666;
+	background-color:#FFF;
+	width:757px;
+}
+
+.btn_search{
+	background-image:url(images/btn_search.gif);
+	width:63px;
+	height:17px;
+	border-style:hidden;
+}
+.btn_search:hover{
+	cursor:pointer;
+}
+
+.main_path{margin:10px; background:url(./images/main_path_back.gif) repeat-x; width:766px;_width:750px; height:26px; padding:8px 0px 0px 4px; font-family:verdana; color:#003e78; font-size:11px; font-weight:bold; }
+
+.selected_menu{
+	background-color:#999;
+}
